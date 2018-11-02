@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+- lts/*
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: noomorph@gmail.com
+  api_key:
+    secure: sqkR+i17GYnnaGrkjl2SJfs5nxvno3uotwTqHfjw8DprflmJLhUZYrU2OnMwqbJUkut05iX/xzWT8WSXmXsayovwM2c7cyTzhpfVYnkNyr/GgY9c2B4mGQmrZ6GOOhRaCmODQnlY8zJze5CQQ67EJ3IDkIZVSKPCtaNw/MYH9e+CjvpuDtECehdo4B6Du7+MNGF26B8vSpQIxfM2jnRBcbQU2xTOGx1pFngJKdOCeCojjTegHX/IeiyIJe9En/TeRw2O7d51OwivA9GEYVk/jsq1JEVz9ekPmkkHbvfbBJf998kqz62gf2OJgAipG2ddGgEDOUyMqPNUhaXmdzNKrxssNg3VsCEb+QMbmG9jsKq6dK16gpmgNm/mah19yVCAUDOp1kmq8Q8zZKU5vdQfHZaV0miXhpzhScKAn2G5e/aKcCM+2XvCalnVEK6NQzenHQWU4jC2wKQd5lPeu2Wo5NP5lYiB2az6MDruRtj+Ixhc8WxQKBP+rGADOLD8JbLjAiVmZMKjHL+5da1toHOZddmMvCUPrxpDHuc1SjItqUauqs21yLpw1y7A/Plj8cFFZ7P+rClVWaaIyAeoa9FHzI5wjkHumQaVQrqnV0IHMsgJZnhGAs25zCTmqwWd8ikrHblIn74mF+ullcXbNDjT5yC7xzjKBHgjQMZL/pjEcC8=
+  on:
+    tags: true
+    repo: noomorph/node-async-iterators-kit
