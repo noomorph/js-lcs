@@ -4,6 +4,7 @@
   "description": "Longest common substring implementation in JavaScript",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "tsc",
     "build": "tsc",
     "test": "jest"
   },
